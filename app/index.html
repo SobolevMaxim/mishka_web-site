@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,133 @@
   <title>Document</title>
 </head>
 <body>
+  <nav class="main-nav">
+    <div class="wrapper">
+      <a href="#" class="nain-nav__item nain-nav__item--border">каталог товаров</a>
+      <a href="#" class="nain-nav__item">вязание на заказ</a>
+      <a href="#" class="main-nav__logo-link"><img src="http://placehold.it/150x100" alt="" class="main-nav__logo"></a>
+      <a href="#" class="main-nav__item nain-nav__item--border"></a>
+      <a href="#" class="main-nav__item"></a>
+      <a href="#" class="main-nav__item">корзина: пока пуста</a>
+    </div>
+  </nav>
 
+  <header class="page-header">
+    <div class="wrapper">
+      <div class="page-header__nav">
+        <a href="#" class="page-header__link">новые поступления</a>
+        <a href="#" class="page-header__link">распродажа</a>
+        <span class="page-header__free">бесплатная доставка по России</span>
+      </div>
+      <h1 class="page-header__slogan">милые штуки ручной работы для дома</h1>
+
+      <div class="goods-catalog">
+        <a href="#" class="goods-catalog__link">
+            <p class="goods-catalog__text">предметы интерьера</p>
+            <img src="http://placehold.it/150x100" alt="" class="goods-catalog__img">
+        </a>
+        <a href="#" class="goods-catalog__link goods-catalog__link--dark">
+            <p class="goods-catalog__text">детские игрушки</p>
+            <img src="http://placehold.it/150x100" alt="" class="goods-catalog__img">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="card">
+    <div class="wrapper">
+    <p class="card__hit">товар недели</p>
+    <div class="card__info">
+      <h2 class="card__name">вязаные корзинки</h2>
+      <p class="card__descr">экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трех размерах</p>
+      <table class="card__paremeters">
+        <tr class="card__paremeters-row">
+          <td class="card__paremeters-name">цвет:</td>
+          <td class="card__paremeters-name">"Тиффани"/серый</td>
+        </tr>
+        <tr class="card__paremeters-row">
+          <td class="card__paremeters-name">диаметр:</td>
+          <td class="card__paremeters-name">25см</td>
+        </tr>
+        <tr class="card__paremeters-row">
+          <td class="card__paremeters-name">высота:</td>
+          <td class="card__paremeters-name">15см</td>
+        </tr>
+      </table>
+      <p class="card__price">цена: 990 руб.</p>
+      <button class="card__button button">Заказать</button>
+    </div>
+    <img src="http://placehold.it/150x100" alt="вязаные корзинки" class="card__img">
+    </div>
+  </section>
+
+  <section class="about-us">
+    <div class="wrapper">
+      <h2 class="about-us__title">коротко о нас</h2>
+      <div class="about-us__advantage">
+        <p class="about-us__text">экологически чистые материалы</p>
+        <p class="about-us__text">связано вручную с любовью и умилением</p>
+        <p class="about-us__text">скандинавский стиль по российской цене</p>
+        <p class="about-us__text">поддержка отечественного производителя</p>
+        <p class="about-us__text">увеличивает лайки на фотографиях</p>
+        <p class="about-us__text">поставляется в подарочной упаковке</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="comments">
+    <div class="wrapper">
+      <div class="comment">
+        <div class="comment__top">
+          <h2 class="comment__title">отзывы</h2>
+          <a href="#" class="comment__button button">написать</a>
+        </div>
+        <p class="comment__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+        <div class="comment__bottom">
+          <div class="comment__user">
+            <p class="comment__author">Анастасия Красильникова</p>
+            <p class="comment__mail">@mississta</p>
+          </div>
+          <button class="comment__arrow"><img src="http://placehold.it/80x50" alt="" class="comment__arrow-img"></button>
+          <button class="comment__arrow"><img src="http://placehold.it/80x50" alt="" class="comment__arrow-img"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="wrapper">
+    <img src="http://placehold.it/80x50" alt="" class="contacts__img">
+
+    <div class="contacts__info contact-card">
+      <h2 class="contact-card__title">контакты</h2>
+      <table class="contact-card__table">
+        <tr>
+          <td class="contact-card__data">e-mail:</td>
+          <td class="contact-card__data">info@mimimishkashop.ru</td>
+        </tr>
+        <tr>
+          <td class="contact-card__data">адрес:</td>
+          <td class="contact-card__data">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</td>
+        </tr>
+      </table>
+      <a class="contact-card__button button">напишите нам</a>
+    </div>
+
+    <div class="contacts__map"><img src="http://placehold.it/400x400" alt=""></div>
+  </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="wrapper">
+      <a href="" class="page-footer__logo-link"><img src="http://placehold.it/100x40" alt="" class="page-footer__logo-img"></a>
+      <div class="page-footer__social social">
+        <a href="#" class="social__link"><img src="http://placehold.it/40x40" alt="" class="social__img"></a>
+        <a href="#" class="social__link"><img src="http://placehold.it/40x40" alt="" class="social__img"></a>
+        <a href="#" class="social__link"><img src="http://placehold.it/40x40" alt="" class="social__img"></a>
+      </div>
+      <p class="page-footer__developed">Разработано <a href="#" class="page-footer__developed-link"><img src="http://placehold.it/40x40" alt="" class="page-footer__developed-img"></a></p>
+    </div>
+  </footer>
 </body>
 </html>
