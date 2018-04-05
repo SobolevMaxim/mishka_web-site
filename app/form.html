@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="main-nav">
+    <div class="wrapper">
+      <a href="#" class="nain-nav__item nain-nav__item--border">каталог товаров</a>
+      <a href="#" class="nain-nav__item">вязание на заказ</a>
+      <a href="#" class="main-nav__logo-link"><img src="http://placehold.it/150x100" alt="" class="main-nav__logo"></a>
+      <a href="#" class="main-nav__item nain-nav__item--border"></a>
+      <a href="#" class="main-nav__item"></a>
+      <a href="#" class="main-nav__item">корзина: пока пуста</a>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="wrapper">
+      <div class="page-header__nav">
+        <a href="#" class="page-header__link">новые поступления</a>
+        <a href="#" class="page-header__link">распродажа</a>
+        <span class="page-header__free">бесплатная доставка по России</span>
+      </div>
+      <h1 class="page-header__slogan">вязание на заказ</h1>
+    </div>
+  </header>
+
+  <section class="feedback">
+    <div class="wrapper">
+      <h2 class="feedback__text"></h2>
+
+      <form action="#" method="get" class="page-form">
+
+        <div class="page-form__type">
+          <h3 class="page-form__title">тип</h3>
+          <div class="page-form__container">
+            <label for="interier" class="page-form__label"><input type="radio" id="interier" name="prod-type" value="interier-assessory" class="page-form__input-type"> Аксессуар для интерьера</label>
+            <label for="toy" class="page-form__label"><input type="radio" id="toy" name="prod-type" value="child-toy" class="page-form__input-type"> Детская игрушка</label>
+          </div>
+        </div>
+
+        <div class="page-form__color">
+          <h3 class="page-form__title">цвет</h3>
+          <div class="page-form__container">
+            <label for="white" class="page-form__label"><input type="checkbox" name="prod-color" id="white" value="white-color" class="page-form__input-color">Белый</label>
+            <label for="gray" class="page-form__label"><input type="checkbox" name="prod-color" id="gray" value="gray-color" class="page-form__input-color">Серый</label>
+            <label for="tyffany" class="page-form__label"><input type="checkbox" name="prod-color" id="tyffany" value="tyffany-color" class="page-form__input-color">"Тиффани"</label>
+            <label for="black" class="page-form__label"><input type="checkbox" name="prod-color" id="black" value="black-color" class="page-form__input-color">Черный</label>
+            <label for="pink" class="page-form__label"><input type="checkbox" name="prod-color" id="pink" value="pink-color" class="page-form__input-color">Розовый</label>
+            <label for="orange" class="page-form__label"><input type="checkbox" name="prod-color" id="orange" value="orange-color" class="page-form__input-color">Оранжевый</label>
+          </div>
+        </div>
+
+        <div class="page-form__user-name">
+          <h3 class="page-form__title">фио</h3>
+          <div class="page-form__container">
+            <label for="name" class="page-form__label">Имя: <input type="text" id="name" placeholder="Введите ваше имя*" name="user-data" required class="page-form__input-user"></label>
+            <label for="surname" class="page-form__label">Фамилия: <input type="text" id="surname" placeholder="укажите фамилию*" name="user-data" required class="page-form__input-user"></label>
+            <label for="patronymic" class="page-form__label">Отчество: <input type="text" id="patronymic" placeholder="отчество, если желаете" name="user-data" class="page-form__input-user"></label>
+          </div>
+        </div>
+
+        <div class="page-form__contacts">
+          <h3 class="page-form__title">тел</h3>
+          <div class="page-form__container">
+            <input type="text" placeholder="+7 XXX XX XX*" required id="user-phone" name="user-data" class="page-form__input-user"><label for="user-phone"><img src="http://placehold.it/40x22" alt=""></label>
+          </div>
+          <h3 class="page-form__title">email</h3>
+          <div class="page-form__container">
+            <input type="text" placeholder="ваш email*" required id="user-email" name="user-data" class="page-form__input-user"><label for="user-email"><img src="http://placehold.it/40x22" alt=""></label>
+          </div>
+        </div>
+
+        <div class="page-form__comment">
+          <h3 class="page-form__title">доп</h3>
+          <div class="page-form__container">
+            <textarea name="user-comment" rows="8" cols="80" placeholder="опишите все пожелания к заказу" class="page-form__textarea"></textarea>
+            <div class="page-form__little-container">
+              <input type="submit" class="page-form__button button" value="Отправить заказ">
+              <span class="page-form__required"><sup>*</sup>Поля обязательны для заполнения</span>
+            </div>
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="wrapper">
+      <a href="" class="page-footer__logo-link"><img src="http://placehold.it/100x40" alt="" class="page-footer__logo-img"></a>
+      <div class="page-footer__social social">
+        <a href="#" class="social__link"><img src="http://placehold.it/40x40" alt="" class="social__img"></a>
+        <a href="#" class="social__link"><img src="http://placehold.it/40x40" alt="" class="social__img"></a>
+        <a href="#" class="social__link"><img src="http://placehold.it/40x40" alt="" class="social__img"></a>
+      </div>
+      <p class="page-footer__developed">Разработано <a href="#" class="page-footer__developed-link"><img src="http://placehold.it/40x40" alt="" class="page-footer__developed-img"></a></p>
+    </div>
+  </footer>
+</body>
+</html>
